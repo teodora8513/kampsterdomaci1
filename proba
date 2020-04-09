@@ -1,0 +1,22 @@
+                <b>Ovo</b>   boldovanje
+                <del>je</del> precrtano
+                <em>proba</em>  nakoso
+                <i>tekst</i>    italic
+                <ins>je samo</ins>  podvuceno
+                <mark>proba</mark>  hajlajtovanje
+                <small>ili je</small>   umanjeno
+                <strong>nesto</strong> boldovanje
+                <sub>vise ili</sub> sub(umanjeno dole)
+                <sup>ili manje</sup>  stepen
+                <u>podvuceno</u> podvuceno
+                
+                <address>Adresa</address> italic, koristi se za adresu
+                <bdo dir="lrt">Pravac teksta</bdo> menja praac teksta
+                <q>Citat</q> stavlja navodnike
+                <cite>Citat</cite> italic
+                <dfn>Definicija</dfn>   Koristi za definiciju
+                
+                <code> formatira tekst kao kod
+                <samp>definise primer koda
+                <var> definise varijablu
+                

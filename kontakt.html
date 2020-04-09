@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<hmlt lang= "sr"> 
+    <head>
+        <meta name="description" content="Forma i kontakt stranica">
+        <!--Prilagodjavanje mobilnim telefonima-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Onemogucenost da se na mobilnom uredjaju zumira sadrzaj ove stranice-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta charset="UTF-8">
+        <title>ToJeSoft</title>
+        <body>
+            <h1 id="naslov">Kontakt</h1>
+            
+            <a class="navigacija" href="index.html">Početna</a>
+            <a class="navigacija" href="novosti.html">Novosti</a>
+            <a class="navigacija" href="sifrarnici.html">Šifrarnici</a>
+            <a class="navigacija" href="o-nama.html">O nama</a>
+            <a class="navigacija" href="reference.html">Reference</a>
+            
+            <!--Forma za kontakt-->
+            <form id="forma">
+                Ime i prezime:
+                <input type="text" name="imePrezime" required><br>
+                E-mail:
+                <input type="email" name="email"><br>
+                Broj telefona:
+                <input type="tel" name="telefon"><br>
+                <!--Mozemo checkbow, radio button ili select(padajuci meni)-->
+                <label>Kako biste želeli da Vas kontaktiramo:</label><br>
+                <input type="checkbox" name="opcija1" vlaue="mail" >
+                <label for="opcija1">Putem emaila</label>
+                <input type="checkbox" name="opcija2" value="telefon">
+                <label for="opcija2">Putem telefona</label><br>
+                Poruka:
+                <textarea rows="6" maxlength="100" required>Poruku unesite ovde</textarea><br>
+                <!--Dva nacina submitovanja forme-->
+                <!--<input type="submit" value="Pošalji">-->
+                <button type="submit">Pošalji</button>
+                
+                </select>
+            </form>
+        </body>
+    </head>
+</hmlt>
